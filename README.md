@@ -5,7 +5,7 @@ This is a special script that enables you to change the `es_systems.cfg` file, w
 ## Version
 
 - Version 4.1
-- Updated by TMNTturtlguy on July 9, 2017
+- Version 4.0 Updated by TMNTturtlguy on July 9, 2017
 - Script enhancements and documentation update to include `change_es_systems` functionality.
 
 ## Setup
