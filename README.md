@@ -1,27 +1,35 @@
-change_es_systems
-This script lets you change the es_systems.cfg file used to display systems using your controllers.
-
 # Change ES Systems Script
 
-This is a special script that lets you change the `es_systems.cfg` file used to display systems in EmulationStation using your controllers.
+This is a special script that enables you to change the `es_systems.cfg` file, which controls the display of gaming systems in EmulationStation using your controllers. This customization allows for a more personalized gaming experience on your RetroPie setup.
 
 ## Version
-This is version 4 of the script, updated by TMNTturtlguy on July 9, 2017.
+
+- Version 4.1
+- Updated by TMNTturtlguy on July 9, 2017
+- Script enhancements and documentation update to include `change_es_systems` functionality.
 
 ## Setup
-1. Place the script in the `/home/pi/RetroPie/retropiemenu/` directory.
-2. Create the following directory: `/opt/retropie/configs/all/emulationstation/es_systems`
-3. Within that directory, create these six directories: `All`, `Consoles`, `Customs`, `Favorites`, `Hacks`, `Neocapcom`
+
+1. **Script Placement**: Move the script into the `/home/pi/RetroPie/retropiemenu/` directory.
+2. **Directory Structure Setup**: Create the directory `/opt/retropie/configs/all/emulationstation/es_systems`.
+3. **Create Subdirectories**: Inside the above directory, make these six directories: `All`, `Consoles`, `Customs`, `Favorites`, `Hacks`, `Neocapcom`.
 
 ## Configuration
-In each of the six directories you created, place a `es_systems.cfg` file. The file needs to have the same name (`es_systems.cfg`) in each directory, but the systems can be different.
 
-For example, the full path to the `es_systems.cfg` file in the `Favorites` directory would be: `/opt/retropie/configs/all/emulationstation/es_systems/Favorites/es_systems.cfg`
+Place a `es_systems.cfg` file within each of the six directories you've created. Ensure the file is named `es_systems.cfg` in every directory, although the contents (the systems configuration) can vary based on your preference.
+
+**Example Path**: `/opt/retropie/configs/all/emulationstation/es_systems/Favorites/es_systems.cfg`
 
 ## Usage
-Once everything is set up, you can run the script. EmulationStation will automatically restart to apply the new configuration.
+
+To apply a new `es_systems.cfg` configuration, run the script from the RetroPie menu. EmulationStation will automatically restart to reflect the changes in the systems display based on the selected configuration.
+
+The script now uses the `change_es_systems` function to streamline the process of switching between different `es_systems.cfg` files, making it easier to manage and understand for users.
+
+## How to Use the Change Feature
+
+After setting up your desired `es_systems.cfg` files in the respective directories, you can easily switch between them through the script's menu. The script prompts you to choose which configuration to apply (All, Consoles, Customs, Favorites, Hacks, Neocapcom), and the selected configuration will be instantly activated with EmulationStation restarting to update the display.
 
 ## Acknowledgements
-Special thanks to @meleu and @cyperghost for their hard work helping troubleshoot this script and coming up with a way to restart EmulationStation.
 
- 
+A heartfelt thank you to @meleu and @cyperghost for their invaluable assistance in troubleshooting this script and devising the method to restart EmulationStation seamlessly. Their contributions have significantly enhanced the functionality and user experience of this script.
